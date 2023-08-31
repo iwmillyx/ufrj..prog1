@@ -4,7 +4,6 @@ int main() {
     //dicionário de dados
     int a, b, c;
     int maior;
-
     
     //obtém os três números
     printf("Digite os tres numeros separados por espaco: \n");
