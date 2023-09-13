@@ -1,0 +1,24 @@
+include <stdio.h>
+
+int main()
+{
+    int x, y, t=1;
+    
+    printf("Digite dois numeros inteiros separados por espaço, o primeiro tem que ser diferente de 0 e o segundo maior ou igual: ");
+    scanf("%d %d", &x, &y);
+    
+if(x==0 || y < 0){
+   printf("erro");
+   return 0;
+}    
+
+do{
+    t *= x;
+    y --;
+    
+} while (y != 0);
+
+printf("o valor é %d\n", t);
+
+    return 0;
+}
