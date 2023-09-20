@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(){
+    
+    int cent, unid, dezen, N:
+     
+     printf("Digite um número com 3 dígitos: ");
+     scanf("%d", &N);
+     
+    if(N > 999 || N < 99){
+        printf("VAI FAZER DE NOVO SUA VAGABUNDA")
+    }
+    
+    else{
+        cent= n/100;
+        dezen= 
+        unid= 
+        
+    }
+    
+}
