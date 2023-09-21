@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+int main(){
+    
+    int cafe;
+    
+    printf("Digite um número de 1 até 10 para escolher meu café da manhã: ");
+    scanf("%d", &cafe);
+    
+    switch(cafe) {
+        case 1:
+            printf("Bolo de chocolate \n");
+            break;
+        case 2:
+            printf("Biscoito \n");
+            break;
+        case 3:
+            printf("Cuscuz \n");
+            break;
+        case 4:
+            printf("Pão com ovo \n");
+            break;
+        case 5:
+            printf("Frutas \n");
+            break;  
+        case 6:
+            printf("Tapioca \n");
+            break;
+        case 7:
+            printf("Iorgute \n");
+            break;
+        case 8:
+            printf("Panqueca com mel \n");
+            break;
+        case 9:
+            printf("Waffle \n");
+            break;
+        case 10:
+            printf("Pão de queijo \n");
+            break; 
+            
+        default:
+            printf("não tem essa opção, vai ficar com fome idiota \n");
+        }    
+        
+        return 0;
+}
