@@ -20,3 +20,37 @@ int main(){
      
     return 0;
 }
+
+-OUTRA-
+
+#include <stdio.h>
+
+int main(){
+    
+    int cent, unid, dezen, N;
+     
+     printf("Digite um número com 3 dígitos: ");
+     scanf("%d", &N);
+     
+    //DEFESA
+    
+    if(N > 999 || N < 99){
+        printf("Erro, VAI FAZER DE NOVO SUA VAGABUNDA \n");
+    return 0;    
+    }
+    //SEPARANDO N DE CENTENA, DEZENA E UNIDADE.
+    
+        cent= N/100;
+        dezen= (N%100)/10;
+        unid= N%10;
+    
+    if (N == cent*cent*cent + dezen*dezen*dezen + unid*unid*unid) {
+        printf("É verdadeiro que %d = %d^3 + %d^3 + %d^3\n", N, cent, dezen, unid);
+    }
+    else{
+        printf("É falso que %d = %d^3 + %d^3 + %d^3\n", N, cent, dezen, unid);
+    }
+     printf("O resultado é: %d %d %d", cent, dezen, unid);
+     
+    return 0;
+}
